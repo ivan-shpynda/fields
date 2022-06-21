@@ -13,7 +13,7 @@ const ProgressBar = ({ file, setFile, setImageList }) => {
   }, [url]);
 
   return (
-    <div
+    <motion.div
       className="progress-bar"
       initial={{ width: 0 }}
       animate={{ width: progress + "%" }}

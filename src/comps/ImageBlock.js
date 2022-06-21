@@ -3,8 +3,11 @@ import ProgressBar from "./ProgressBar";
 import { storage } from "../firebase/config";
 import { listAll, ref, getDownloadURL } from "firebase/storage";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
+import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
 
-const ImageBlock = ({ setSelectedImg }) => {
+const ImageBlock = ({ setSelectedImg, user }) => {
   const [file, setFile] = useState(null);
   const [error, setError] = useState(null);
 
@@ -37,10 +40,11 @@ const ImageBlock = ({ setSelectedImg }) => {
 
   return (
     <>
-      <form>
+      {user ? 
+        <form>
         <label>
           <input type="file" onChange={changeHandler} />
-          <span>+</span>
+          <FontAwesomeIcon icon={faCirclePlus} />
         </label>
         <div className="output">
           { error && <div className="error">{ error }</div> }
@@ -48,6 +52,12 @@ const ImageBlock = ({ setSelectedImg }) => {
           { file && <ProgressBar file={file} setFile={setFile} setImageList={setImageList} /> }
         </div>
       </form>
+        :
+        <div className="phone-icon-block">
+          <FontAwesomeIcon className="phone-icon" icon={faMobileScreenButton} />
+        </div>
+        
+      }
       <div className="img-grid">
         {imageList && imageList.map(url => (
           <motion.div
