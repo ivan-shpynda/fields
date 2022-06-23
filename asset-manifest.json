@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ivan-shpynda/fields/static/css/main.901e3b01.chunk.css",
+    "main.js": "/ivan-shpynda/fields/static/js/main.b45ecff1.chunk.js",
+    "main.js.map": "/ivan-shpynda/fields/static/js/main.b45ecff1.chunk.js.map",
+    "runtime-main.js": "/ivan-shpynda/fields/static/js/runtime-main.f90e21d4.js",
+    "runtime-main.js.map": "/ivan-shpynda/fields/static/js/runtime-main.f90e21d4.js.map",
+    "static/js/2.f85e97da.chunk.js": "/ivan-shpynda/fields/static/js/2.f85e97da.chunk.js",
+    "static/js/2.f85e97da.chunk.js.map": "/ivan-shpynda/fields/static/js/2.f85e97da.chunk.js.map",
+    "index.html": "/ivan-shpynda/fields/index.html",
+    "precache-manifest.b0030e9a2450ec49b2ccb08e0d7b3d7f.js": "/ivan-shpynda/fields/precache-manifest.b0030e9a2450ec49b2ccb08e0d7b3d7f.js",
+    "service-worker.js": "/ivan-shpynda/fields/service-worker.js",
+    "static/css/main.901e3b01.chunk.css.map": "/ivan-shpynda/fields/static/css/main.901e3b01.chunk.css.map",
+    "static/js/2.f85e97da.chunk.js.LICENSE.txt": "/ivan-shpynda/fields/static/js/2.f85e97da.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f90e21d4.js",
+    "static/js/2.f85e97da.chunk.js",
+    "static/css/main.901e3b01.chunk.css",
+    "static/js/main.b45ecff1.chunk.js"
+  ]
+}
