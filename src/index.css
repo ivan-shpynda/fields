@@ -193,3 +193,26 @@ label {
   height: 24px;
   color: var(--primary);
 }
+
+.header-wrap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.lang {
+  display: flex;
+}
+
+.lang-variant {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.lang-variant:hover {
+  color: var(--primary);
+}
+
+.active {
+  color: var(--primary);
+}

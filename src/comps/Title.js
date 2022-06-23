@@ -1,10 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Title = () => {
+  const { t } = useTranslation();
   return (
     <div className="title">
-      <h2>Поля</h2>
-      <p>Відзнято на iPhone SE з восьмого поверху багатоквартирного будинку в Сихівському районі Львова протягом 2020-2022 рр.</p>
+      <h2>{t('title')}</h2>
+      <p>{t('description')}</p>
     </div>
   )
 }

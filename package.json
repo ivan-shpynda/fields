@@ -1,5 +1,6 @@
 {
-  "name": "firegram",
+  "name": "fields",
+  "homepage": "https://github.com/ivan-shpynda/fields/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +13,11 @@
     "@testing-library/user-event": "^7.2.1",
     "firebase": "^9.8.3",
     "framer-motion": "4.1.7",
+    "i18next": "^21.8.10",
+    "i18next-browser-languagedetector": "^6.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-i18next": "^11.17.2",
     "react-router-dom": "^6.3.0",
     "react-scripts": "3.4.1"
   },
