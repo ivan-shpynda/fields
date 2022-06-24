@@ -14,6 +14,7 @@ body {
 .App {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 .header {
@@ -215,4 +216,24 @@ label {
 
 .active {
   color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .img-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-form {
+    width: 90%;
+  }
+
+  .backdrop img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+
+  .title p {
+    width: 100%;
+  }
 }
